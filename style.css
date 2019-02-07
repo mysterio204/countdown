@@ -19,6 +19,10 @@ body {
     color: #86bbd8;
     text-align: center;
 }
+.containerProgress {
+    color: #86bbd8;
+    text-align: center;
+}
 
 h1 {
     font-weight: normal;
@@ -27,7 +31,7 @@ h1 {
 li {
     display: inline-block;
 
-    font-size: 0.6em;
+    font-size: 0.8em;
     list-style-type: none;
     padding: 1em;
     text-transform: uppercase;
@@ -37,12 +41,25 @@ li span {
 
     display: block;
 
-    font-size: 0.6rem;
+    font-size: 1.6rem;
+}
+#containerProgress{
+    padding-top: 50px;
+
 }
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+#progressbar {
+    background-color: white;
+    /* (height of inner div) / 2 + padding */
+    padding: 3px;
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
 }
+
+#progressbar>div {
+    background-color: #336699;
+    width: 40%;
+    /* Adjust with JavaScript */
+    height: 20px;
 }
