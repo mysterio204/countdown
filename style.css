@@ -10,10 +10,12 @@ body {
 }
 
 .containerDown {
-    color: #86bbd8;
+    color: #2f4858;
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 150px;
+    background-color: aqua;
+
+
 }
 .containerUp {
     color: #86bbd8;
@@ -25,26 +27,43 @@ body {
 }
 
 h1 {
-    font-weight: normal;
+    font-weight: bold;
+    font-size:2.4em;
+    color:#2f4858;
+    font-family: "Source Sans Pro",sans-serif;
+
+
+}
+#head2 {
+
+    color:#86bbd8;
+
+
 }
 
 li {
     display: inline-block;
 
-    font-size: 0.8em;
+    font-size: 1.6em;
     list-style-type: none;
     padding: 1em;
     text-transform: uppercase;
+    font-family: "Roboto",sans-serif;
+    font-weight: 100;
 }
 
 li span {
 
     display: block;
 
-    font-size: 1.6rem;
+    font-size: 3.2rem;
 }
 #containerProgress{
+    background-color: aqua;
+
     padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
 
 }
 
@@ -58,7 +77,8 @@ li span {
 }
 
 #progressbar>div {
-    background-color: #336699;
+    //background-color: #336699;
+    background-color: #2f4858;
     width: 40%;
     /* Adjust with JavaScript */
     height: 20px;
