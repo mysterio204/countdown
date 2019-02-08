@@ -59,7 +59,7 @@ li span {
     font-size: 3.2rem;
 }
 #containerProgress{
-    background-color: aqua;
+    background-color: #00ffff;
 
     padding-top: 50px;
     padding-bottom: 50px;
@@ -82,4 +82,17 @@ li span {
     width: 40%;
     /* Adjust with JavaScript */
     height: 20px;
+}
+.centerContainer{
+
+    text-align: center;
+}
+
+#kitsch{
+
+    width: 50%;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+
 }
