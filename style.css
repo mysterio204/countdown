@@ -10,7 +10,7 @@ body {
 }
 
 #dulli {
-    padding-top: 50px;
+    padding-top: 20px;
     text-align: center;
 
 }
@@ -18,7 +18,7 @@ body {
 .containerDown {
     color: #2f4858;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 20px;
     background-color: aqua;
 
 }
@@ -35,7 +35,7 @@ body {
 
 h1 {
     font-weight: bold;
-    font-size: 6em;
+    font-size: 10em;
     color: #ffffff;;
     font-family: 'Just Another Hand', cursive;
 
