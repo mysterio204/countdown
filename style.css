@@ -9,18 +9,25 @@ body {
     font-family: sans-serif;
 }
 
+#dulli {
+    padding-top: 50px;
+    text-align: center;
+
+}
+
 .containerDown {
     color: #2f4858;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 50px;
     background-color: aqua;
 
-
 }
+
 .containerUp {
     color: #86bbd8;
     text-align: center;
 }
+
 .containerProgress {
     color: #86bbd8;
     text-align: center;
@@ -28,16 +35,23 @@ body {
 
 h1 {
     font-weight: bold;
-    font-size:2.4em;
-    color:#2f4858;
-    font-family: "Source Sans Pro",sans-serif;
-
+    font-size: 6em;
+    color: #ffffff;;
+    font-family: 'Just Another Hand', cursive;
 
 }
+
+h2 {
+    font-weight: bold;
+    font-size: 2.4em;
+    color: #2f4858;
+    font-family: "Source Sans Pro", sans-serif;
+
+}
+
 #head2 {
 
-    color:#86bbd8;
-
+    color: #86bbd8;
 
 }
 
@@ -48,7 +62,7 @@ li {
     list-style-type: none;
     padding: 1em;
     text-transform: uppercase;
-    font-family: "Roboto",sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 100;
 }
 
@@ -58,9 +72,10 @@ li span {
 
     font-size: 3.2rem;
 }
-#containerProgress{
-    background-color: #00ffff;
 
+#containerProgress {
+    background-color: #00ffff;
+    color: #2f4858;
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
@@ -71,27 +86,28 @@ li span {
     background-color: white;
     /* (height of inner div) / 2 + padding */
     padding: 3px;
-    width:50%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
 
-#progressbar>div {
-    //background-color: #336699;
+#progressbar > div {
+/ / background-color: #336699;
     background-color: #2f4858;
     width: 40%;
     /* Adjust with JavaScript */
     height: 20px;
 }
-.centerContainer{
+
+.centerContainer {
 
     text-align: center;
 }
 
-#kitsch{
+#kitsch {
 
     width: 50%;
-    height:auto;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
 
