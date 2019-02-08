@@ -8,7 +8,7 @@
 </head>
 <body>
 <div id="dulli">
-   <h1>#dullisontour</h1>
+    <h1>#dullisontour</h1>
 </div>
 
 <div class="containerDown">
@@ -33,29 +33,39 @@
     </ul>
 </div>
 
-<div id="containerProgress">    <div class="containerTotal">
-    <h2 id="head3">Total:</h2>
-    <ul>
-        <li><span id="weeks3">0</span>Weeks</li>
-        <li><span id="days3">0</span>Days</li>
-        <li><span id="hours3">0</span>Hours</li>
-        <li><span id="minutes3">0</span>Minutes</li>
-        <li><span id="seconds3">0</span>Seconds</li>
-    </ul>
-</div>
+<div id="containerProgress">
+    <div class="containerTotal">
+        <h2 id="head3">Total:</h2>
+        <ul>
+            <li><span id="weeks3">0</span>Weeks</li>
+            <li><span id="days3">0</span>Days</li>
+            <li><span id="hours3">0</span>Hours</li>
+            <li><span id="minutes3">0</span>Minutes</li>
+            <li><span id="seconds3">0</span>Seconds</li>
+        </ul>
+    </div>
     <div id="progressbar">
         <div id="progress"></div>
     </div>
     <h2 id="progressLabel"></h2>
 </div>
-<script src="countdown.js"></script>
 <div class="centerContainer">
     <img src="img/kitsch_beach.png" id="kitsch">
 
+</div>
+    <script src="countdown.js"></script>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134171239-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
-
-
+        gtag('config', 'UA-134171239-1');
+    </script>
 
 
 </body>
