@@ -9,8 +9,8 @@ const second = 1000,
 
 
 
-var end = new Date('Mar 09, 2019 00:14:00').getTime();
-var start = new Date('Jan 28, 2019 00:19:00').getTime();
+var end = new Date('2019-03-09T14:00:00+12:00').getTime();
+var start = new Date('2019-01-28T19:00:00+00:00').getTime();
 
 
 
@@ -20,6 +20,9 @@ var start = new Date('Jan 28, 2019 00:19:00').getTime();
         var timeToGo = end - now;
         var timePassed = now - start;
         var duration = end - start;
+
+
+
 
         var progress= Math.floor((timePassed/duration)*100);
 
@@ -43,6 +46,13 @@ var start = new Date('Jan 28, 2019 00:19:00').getTime();
             document.getElementById('hours2').innerText = Math.floor((timePassed % (day)) / (hour)),
             document.getElementById('minutes2').innerText = Math.floor((timePassed % (hour)) / (minute)),
             document.getElementById('seconds2').innerText = Math.floor((timePassed % (minute)) / second);
+
+
+        document.getElementById('weeks3').innerText = Math.floor(duration / (week)),
+            document.getElementById('days3').innerText = Math.floor(duration % (week) / (day)),
+            document.getElementById('hours3').innerText = Math.floor((duration % (day)) / (hour)),
+            document.getElementById('minutes3').innerText = Math.floor((duration % (hour)) / (minute)),
+            document.getElementById('seconds3').innerText = Math.floor((duration % (minute)) / second);
 
 
         //do something later when date is reached
