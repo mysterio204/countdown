@@ -34,7 +34,7 @@ body {
 }
 
 h1 {
-    font-weight: bold;
+    font-weight: normal !important;
     font-size: 10em;
     color: #ffffff;;
     font-family: 'Just Another Hand', cursive;
